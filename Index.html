@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Example with Dora Image and Funny Video</title>
+    <style>
+        table {
+            width: 50%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        ul, ol {
+            margin: 20px 0;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+
+        iframe, audio, video {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Web Page</h1>
+
+    <!-- Education Details in a Table -->
+    <h2>Education Details</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year of Passing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>B.Tech</td>
+                <td>XYZ University</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>ABC School</td>
+                <td>2020</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- HTML Lists -->
+    <h2>HTML Lists</h2>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Web Development</li>
+        <li>App Development</li>
+        <li>Software Engineering</li>
+    </ul>
+
+    <!-- Dora Image with a Link -->
+    <h2>Clickable Dora Image Link</h2>
+    <a href="https://www.nickjr.com/dora-the-explorer/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Dora_the_Explorer.png" alt="Dora the Explorer">
+    </a>
+
+    <!-- Image Map -->
+    <h2>World Map with Image Map Example</h2>
+    <img src="world-map.jpg" alt="World Map" usemap="#worldmap">
+
+    <map name="worldmap">
+        <!-- Clickable area for North America -->
+        <area shape="poly" coords="60,100,100,130,130,110,140,80,90,60,50,80" 
+              alt="North America" href="https://www.example.com/north-america">
+        
+        <!-- Clickable area for South America -->
+        <area shape="poly" coords="120,240,140,270,160,300,200,280,180,220,150,210" 
+              alt="South America" href="https://www.example.com/south-america">
+
+        <!-- Clickable area for Europe -->
+        <area shape="poly" coords="300,60,320,80,350,80,360,60,340,40,310,50" 
+              alt="Europe" href="https://www.example.com/europe">
+        
+        <!-- Clickable area for Asia -->
+        <area shape="poly" coords="400,60,430,80,480,60,460,40,420,40" 
+              alt="Asia" href="https://www.example.com/asia">
+        
+        <!-- Clickable area for Australia -->
+        <area shape="poly" coords="480,300,500,320,530,320,540,300,510,280" 
+              alt="Australia" href="https://www.example.com/australia">
+    </map>
+
+    <!-- Embedding Audio -->
+    <h2>Arijit Singh Song</h2>
+    <audio controls>
+        <source src="arijit-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Embedding Funny Video from YouTube -->
+    <h2>Funny Video</h2>
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/_OBlgSz8sSM" 
+            title="Funny Video" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+
+</body>
+</html>
